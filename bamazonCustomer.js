@@ -66,8 +66,8 @@ function customerPurchase(){
         connection.query(`SELECT * FROM inventory WHERE item_id = ${selectedItem.itemID}`, function(err, res) {
           if (res[0].stock_qty > selectedItem.howMany) {
             console.log('You\'re in luck, we have plenty in stock!'); 
-            let newQty = res[0].stock_qty - selectedItem.howMany; 
             let custPrice = selectedItem.howMany * res[0].price; 
+            let newQty = res[0].stock_qty - selectedItem.howMany; 
             let custItem = res[0].product_name; 
 
             connection.query(`UPDATE products SET stock_qty = ${newQty} WHERE item_id = ${selectedItem.item_id}`, function(err,res) {
