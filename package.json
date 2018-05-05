@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/susanldavenport/Bamazon.git"
+    "url": "git + https://github.com/susanldavenport/Bamazon.git"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/susanldavenport/Bamazon#readme",
   "dependencies": {
     "figlet": "^1.2.0",
-    "inquirer": "^5.2.0"
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0"
   }
 }
