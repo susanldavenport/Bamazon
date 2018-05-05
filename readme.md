@@ -11,8 +11,7 @@ This is a node-based application that demonstrates the use of javascript and sql
    * [mysql](https://www.npmjs.com/package/mysql)
    * [figlet](https://www.npmjs.com/package/figlet)
 
-![title image](title.PNG)
-
+![title image](title.png)
 
 
 
